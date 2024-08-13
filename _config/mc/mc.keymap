@@ -1,7 +1,10 @@
+[input]
+Complete = shift-tab; alt-/
+
 [editor]
 Store = ctrl-c
 Paste = ctrl-v
-Cut = ctrl-x
+Cut = ctrl-x; ctrl-w
 Up = up; ctrl-p
 Down = down; ctrl-n
 Left = left; ctrl-b
@@ -15,7 +18,7 @@ PageUp = pgup;
 PageDown = pgdn;
 Home = home; ctrl-a
 End = end; ctrl-e
-Tab = tab; shift-tab; ctrl-tab; ctrl-shift-tab
+Tab = tab;
 Undo = ctrl-u
 Redo = ctrl-r
 Top = ctrl-home; alt-lt
@@ -75,7 +78,7 @@ MarkColumnDown = alt-down
 MarkColumn = f13
 Replace = f4
 ReplaceContinue = f14
-Complete = alt-tab; alt-/
+Complete = shift-tab; alt-/
 InsertFile = f15
 Quit = f10; esc
 InsertOverwrite = insert
