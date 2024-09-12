@@ -5,7 +5,7 @@ auto_save_setup=true
 preallocate_space=false
 auto_menu=false
 use_internal_view=true
-use_internal_edit=false
+use_internal_edit=true
 clear_before_exec=true
 confirm_delete=true
 confirm_overwrite=true
@@ -21,7 +21,7 @@ mouse_move_pages_viewer=true
 mouse_close_dialog=false
 fast_refresh=false
 drop_menus=false
-wrap_mode=true
+wrap_mode=false
 old_esc_mode=true
 cd_symlinks=true
 show_all_if_ambiguous=false
@@ -90,7 +90,7 @@ editor_wordcompletion_collect_all_files=true
 
 [Layout]
 output_lines=0
-left_panel_size=142
+left_panel_size=49
 top_panel_size=0
 message_visible=false
 keybar_visible=true
@@ -170,7 +170,7 @@ diff_tab_expansion=false
 diff_ignore_case=false
 
 [Panelize]
-Modified git files=git ls-files --modified
 Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
-Find rejects after patching=find . -name \\*.rej -print
 Find *.orig after patching=find . -name \\*.orig -print
+Find rejects after patching=find . -name \\*.rej -print
+Modified git files=git ls-files --modified

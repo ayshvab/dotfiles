@@ -1,0 +1,22 @@
+{
+	"ignored_packages":
+	[
+		"Executor",
+		"LSP-json",
+		"LSP-pyright",
+		"LSP-ruff",
+		"Vintage",
+	],
+	"index_files": true,
+	"font_face": "CaskaydiaMono Nerd Font Light",
+	"font_size": 12,
+	"color_scheme": "Alabaster.sublime-color-scheme",
+	"theme": "Default.sublime-theme",
+	"hide_tab_scrolling_buttons": true,
+	"hide_new_tab_button": true,
+	"index_exclude_patterns": ["*.log", "node_modules/**"],
+	"reveal_menu": false,
+	"auto_hide_tabs": true,
+	"reveal_tabs_with_timeout": false,
+	"animation_enabled": false,
+}

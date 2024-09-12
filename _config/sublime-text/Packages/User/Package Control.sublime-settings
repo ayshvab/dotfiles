@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"AceJump",
+		"Alabaster Color Scheme",
+		"Executor",
+		"LSP",
+		"LSP-json",
+		"LSP-pyright",
+		"LSP-ruff",
+		"Package Control",
+		"Profile Switcher",
+		"SideBarTools",
+		"Terminal",
+		"Terminus",
+		"Writer Color Scheme",
+	],
+	"in_process_packages":
+	[
+		"Executor",
+		"LSP-json",
+		"LSP-pyright",
+		"LSP-ruff",
+	],
+}
